@@ -1,0 +1,44 @@
+/* ProductListing.css */
+.plant-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.plant-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.plant-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.plant-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.plant-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+.plant-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.plant-card button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,29 @@
+.landing-page {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f8ff;
+}
+
+.landing-page h1 {
+  font-size: 3em;
+  color: #2e8b57;
+}
+
+.landing-page p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.landing-page button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #2e8b57;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.landing-page button:hover {
+  background-color: #3cb371;
+}
